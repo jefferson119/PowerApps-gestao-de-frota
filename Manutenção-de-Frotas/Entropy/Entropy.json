@@ -3,17 +3,26 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
+    "Button1": 10,
+    "Circle1": 9,
+    "Image2": 8,
+    "Label2": 5,
+    "Label3": 6,
     "Lbl_nome do aplicativo": 4,
     "tela_inicial": 3
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "04/06/2023 12:05:26",
+  "HeaderLastSavedDateTimeUTC": "04/06/2023 12:19:41",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
+  "LocalResourceFileNames": {
+    "imagem truck": "7f87ff63-9dfd-4be1-aa57-1bc862d35b9f.png"
+  },
+  "LocalResourceRootPaths": {
+    "imagem truck": "https://docserverpwaprodsbr.blob.core.windows.net/224dda9d-ebc8-4d18-8782-ff5107bb2296-1/resource/937905e0-2372-4231-8ed4-5fe1e2cab78a.png?sv=2018-03-28&sr=b&sig=I3EcqvY14i8l8KApr0qiFDQVxVwDgXb1kTedFgbJS7Y%3D&spr=https&se=2023-04-07T12%3A31%3A14Z&sp=r"
+  },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {},
@@ -21,10 +30,18 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
+    "button": 1,
+    "circle": 2,
+    "image": 3,
     "label": 0
   },
   "OverridablePropertiesEntry": {
     "App": {},
+    "Button1": {},
+    "Circle1": {},
+    "Image2": {},
+    "Label2": {},
+    "Label3": {},
     "Lbl_nome do aplicativo": {},
     "tela_inicial": {}
   },
@@ -32,10 +49,18 @@
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "Lbl_nome do aplicativo": 0,
+    "Button1": 0,
+    "Circle1": 2,
+    "Image2": 3,
+    "Label2": 0,
+    "Label3": 1,
+    "Lbl_nome do aplicativo": 4,
     "tela_inicial": 0
   },
-  "ResourcesJsonIndices": {},
+  "ResourcesJsonIndices": {
+    "Image-imagem truck": 1,
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
