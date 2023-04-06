@@ -31,7 +31,7 @@ tela_inicial As screen:
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =21
-        Text: ="manutenção de frota"
+        Text: ="Manutenção de Frota"
         Width: =560
         X: =36
         Y: =652
@@ -113,7 +113,7 @@ tela_inicial As screen:
         RadiusTopLeft: =50
         RadiusTopRight: =50
         Size: =24
-        Text: ="Frota"
+        Text: ="Tela de Frota"
         Width: =280
         X: =188
         Y: =882
