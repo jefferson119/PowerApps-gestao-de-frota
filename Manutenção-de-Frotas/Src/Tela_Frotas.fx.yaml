@@ -2,7 +2,7 @@ Tela_Frotas As screen:
     Fill: =RGBA(31, 31, 31, 1)
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
 
-    Label1 As label:
+    "'Lbl_titulo gestão' As label":
         Align: =Align.Center
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
