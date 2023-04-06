@@ -1,0 +1,25 @@
+tela_inicial As screen:
+    Fill: =RGBA(31, 31, 31, 1)
+    LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
+
+    "'Lbl_nome do aplicativo' As label":
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(255, 200, 61, 1)
+        DisabledBorderColor: =RGBA(255, 200, 61, 1)
+        DisabledColor: |
+            =RGBA(255, 191, 0, 1)
+        DisabledFill: =RGBA(255, 200, 61, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =21
+        Text: ="manutenção de frota"
+        Width: =560
+        X: =20
+        Y: =416
+        ZIndex: =1
+
