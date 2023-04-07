@@ -87,7 +87,7 @@
       "useguiddatatypes": true,
       "usenonblockingonstartrule": true,
       "webbarcodescanner": false,
-      "zeroalltabindexes": true
+      "zeroalltabindexes": false
     },
     "Author": "",
     "ContainsThirdPartyPcfControls": false,
@@ -120,6 +120,8 @@
     "UserLocale": "pt-PT"
   },
   "ScreenOrder": [
-    "tela_inicial"
+    "tela_inicial",
+    "Tela_Frotas",
+    "vistoria"
   ]
 }

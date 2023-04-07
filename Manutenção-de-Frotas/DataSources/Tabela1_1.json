@@ -1,0 +1,25 @@
+[
+  {
+    "Data": "[{\"AIRBANG\":null,\"AR\":null,\"ELETRICA\":null,\"FAROL\":null,\"FILTROS\":null,\"FREIOS\":null,\"LATARIA\":null,\"MOTOR\":null,\"OLEO\":null,\"PLACA\":\"AAC34FG\"},{\"AIRBANG\":null,\"AR\":null,\"ELETRICA\":null,\"FAROL\":null,\"FILTROS\":null,\"FREIOS\":null,\"LATARIA\":null,\"MOTOR\":null,\"OLEO\":null,\"PLACA\":\"BBBE3RF\"},{\"AIRBANG\":null,\"AR\":null,\"ELETRICA\":null,\"FAROL\":null,\"FILTROS\":null,\"FREIOS\":null,\"LATARIA\":null,\"MOTOR\":null,\"OLEO\":null,\"PLACA\":\"4FFC666\"}]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "Tabela1_1",
+    "OrderedColumnNames": [
+      "PLACA",
+      "ELETRICA",
+      "MOTOR",
+      "FAROL",
+      "LATARIA",
+      "FREIOS",
+      "OLEO",
+      "FILTROS",
+      "AR",
+      "AIRBANG"
+    ],
+    "OriginalName": "Tabela1",
+    "OriginalSchema": "*[AIRBANG:s, AR:s, ELETRICA:s, FAROL:s, FILTROS:s, FREIOS:s, LATARIA:s, MOTOR:s, OLEO:s, PLACA:s]",
+    "Schema": "*[AIRBANG:s, AR:s, ELETRICA:s, FAROL:s, FILTROS:s, FREIOS:s, LATARIA:s, MOTOR:s, OLEO:s, PLACA:s]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]
