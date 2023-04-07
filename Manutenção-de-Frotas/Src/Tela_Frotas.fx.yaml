@@ -214,9 +214,9 @@ Tela_Frotas As screen:
         DisabledFill: =RGBA(255, 200, 61, 1)
         Fill: =RGBA(0, 0, 0, 0)
         Height: =131
-        HoverFill: =RGBA(255, 200, 61, 1)
+        HoverFill: =RGBA(0, 0, 0, 0)
         OnSelect: =Navigate(vistoria)
-        PressedFill: =RGBA(255, 200, 61, 1)
+        PressedFill: =RGBA(0, 0, 0, 0)
         Width: =128
         X: =464
         Y: =966
