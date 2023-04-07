@@ -254,7 +254,7 @@ vistoria As screen:
         Y: =839
         ZIndex: =10
 
-    Toggle1 As toggleSwitch:
+    tg_eletrica As toggleSwitch:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         Color: =RGBA(255, 255, 255, 1)
@@ -277,7 +277,7 @@ vistoria As screen:
         Y: =492
         ZIndex: =11
 
-    Toggle1_1 As toggleSwitch:
+    tg_motor As toggleSwitch:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         Color: =RGBA(255, 255, 255, 1)
@@ -411,6 +411,12 @@ vistoria As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(31, 31, 31, 1)
         HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+        OnSelect: |-
+            =Patch(Tabela1_1,Defaults(Tabela1_1),
+            {
+               ELETRICA:tg_eletrica.Value
+            
+            }  )
         PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
         PressedColor: =RGBA(31, 31, 31, 1)
         PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
