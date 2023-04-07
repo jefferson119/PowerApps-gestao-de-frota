@@ -2,24 +2,6 @@ Tela_Frotas As screen:
     Fill: =RGBA(31, 31, 31, 1)
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
 
-    "'Lbl_titulo gestão' As label":
-        Align: =Align.Center
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(255, 200, 61, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Lato Black'
-        Height: =70
-        Size: =21
-        Text: ="Tela de Gestão de Frotas"
-        Width: =560
-        X: =40
-        Y: =40
-        ZIndex: =1
-
     "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         BorderColor: =RGBA(109, 109, 109, 1)
         Height: =487
@@ -30,7 +12,7 @@ Tela_Frotas As screen:
         Width: =584
         X: =28
         Y: =248
-        ZIndex: =2
+        ZIndex: =1
 
         Image1 As image:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -135,7 +117,7 @@ Tela_Frotas As screen:
             Height: =44
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverFill: =RGBA(0, 0, 0, 0)
-            Image: ='imagem_manutenção'
+            Image: =imagem_manutenção
             OnSelect: =Select(Parent)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedFill: =RGBA(0, 0, 0, 0)
@@ -144,4 +126,99 @@ Tela_Frotas As screen:
             X: =80
             Y: =16
             ZIndex: =6
+
+    Rectangle1 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(255, 200, 61, 1)
+        FocusedBorderThickness: =4
+        Height: =152
+        HoverFill: =RGBA(255, 200, 61, 1)
+        PressedFill: =RGBA(255, 200, 61, 1)
+        Width: =640
+        ZIndex: =2
+
+    "'Lbl_titulo gestão' As label":
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(255, 255, 255, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =21
+        Text: ="SUA FROTA"
+        Width: =560
+        X: =28
+        Y: =41
+        ZIndex: =3
+
+    Arrow1 As arrow.backArrow:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        Fill: =RGBA(255, 200, 61, 1)
+        Height: =131
+        OnSelect: =Navigate(tela_inicial)
+        Width: =128
+        X: =28
+        Y: =966
+        ZIndex: =7
+
+    Icon6 As icon.More:
+        BorderColor: =RGBA(109, 109, 109, 1)
+        Color: =RGBA(255, 200, 61, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.More
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        X: =40
+        Y: =40
+        ZIndex: =9
+
+    Icon7 As icon.Add:
+        BorderColor: =RGBA(109, 109, 109, 1)
+        Color: =RGBA(255, 200, 61, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =78
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.Add
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =78
+        X: =489
+        Y: =992
+        ZIndex: =10
+
+    Circle2 As circle:
+        BorderColor: =RGBA(255, 200, 61, 1)
+        BorderThickness: =10
+        DisabledFill: =RGBA(255, 200, 61, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =131
+        HoverFill: =RGBA(255, 200, 61, 1)
+        OnSelect: =Navigate(vistoria)
+        PressedFill: =RGBA(255, 200, 61, 1)
+        Width: =128
+        X: =464
+        Y: =966
+        ZIndex: =11
 
