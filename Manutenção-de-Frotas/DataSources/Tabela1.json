@@ -1,0 +1,21 @@
+[
+  {
+    "Data": "[{\"ANO\":2022,\"STATUS\":\"APTO\",\"TIPO_VECULO\":\"CARRO\",\"marca\":\"FIAT\",\"modelo\":\"TORO TVOLCANO\",\"placa\":\"AAC34FG\"},{\"ANO\":2019,\"STATUS\":\"N\\u00C3O APTO\",\"TIPO_VECULO\":\"CAMINHAO\",\"marca\":\"IVECO\",\"modelo\":\"IVEVO 3340\",\"placa\":\"BBBE3RF\"},{\"ANO\":2023,\"STATUS\":\"APTO\",\"TIPO_VECULO\":\"MOTO\",\"marca\":\"HONDA\",\"modelo\":\"HX500\",\"placa\":\"4FFC666\"}]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "Tabela1",
+    "OrderedColumnNames": [
+      "modelo",
+      "marca",
+      "placa",
+      "ANO",
+      "TIPO_VECULO",
+      "STATUS"
+    ],
+    "OriginalName": "Tabela1",
+    "OriginalSchema": "*[ANO:n, STATUS:s, TIPO_VECULO:s, marca:s, modelo:s, placa:s]",
+    "Schema": "*[ANO:n, STATUS:s, TIPO_VECULO:s, marca:s, modelo:s, placa:s]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]

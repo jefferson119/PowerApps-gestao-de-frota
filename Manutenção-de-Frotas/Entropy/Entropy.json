@@ -3,51 +3,79 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Button1": 5,
-    "Circle1": 7,
-    "Image2": 8,
-    "Label2": 4,
-    "Label3": 6,
-    "Lbl_nome do aplicativo": 9,
-    "Lbl_titulo gestão": 11,
-    "Tela_Frotas": 10,
-    "tela_inicial": 3
+    "Button1": 11,
+    "Circle1": 8,
+    "Gallery1": 12,
+    "galleryTemplate1": 13,
+    "Image1": 14,
+    "Image2": 9,
+    "Image3": 19,
+    "Label2": 6,
+    "Label3": 7,
+    "Lbl_nome do aplicativo": 10,
+    "Lbl_titulo gestão": 4,
+    "NextArrow1": 17,
+    "Separator1": 18,
+    "Subtitle1": 16,
+    "Tela_Frotas": 3,
+    "tela_inicial": 5,
+    "Title1": 15
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "04/06/2023 13:27:14",
+  "HeaderLastSavedDateTimeUTC": "04/07/2023 17:50:56",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
-    "imagem truck": "7f87ff63-9dfd-4be1-aa57-1bc862d35b9f.png"
+    "imagem carro": "a9d27215-4b6a-4f35-a90e-c05b081f757e.png",
+    "imagem truck": "7f87ff63-9dfd-4be1-aa57-1bc862d35b9f.png",
+    "imagem_manutenção": "315863ee-2638-4e42-b0c5-d3e0064a4fb2.png",
+    "imagem_moto": "c5456431-beef-4a35-bb87-141e846a6746.png"
   },
   "LocalResourceRootPaths": {
-    "imagem truck": "https://docserverpwaprodsbr.blob.core.windows.net/8f1acfc7-db42-4b8e-bce5-a895940222f4-1/resource/Assets0Images07f87ff63-9dfd-4be1-aa57-1bc862d35b9f.png?sv=2018-03-28&sr=b&sig=RwIzUAC2ELRZQJfP4qUDaLSo6EjTLG96njALx7v5vuI%3D&spr=https&se=2023-04-07T13%3A32%3A10Z&sp=r"
+    "imagem carro": "https://docserverpwaprodsbr.blob.core.windows.net/f918fae2-50f5-4e31-9a66-fc08dffc6c00-1/resource/ac9a7fe9-1465-48ea-8e2b-a581d3177300.png?sv=2018-03-28&sr=b&sig=8YGlZlgMKqnpqv%2BBqVnIybOIddBCKECGbe0f8%2B%2FMcsQ%3D&spr=https&se=2023-04-08T17%3A43%3A03Z&sp=r",
+    "imagem truck": "https://docserverpwaprodsbr.blob.core.windows.net/f918fae2-50f5-4e31-9a66-fc08dffc6c00-1/resource/Assets0Images07f87ff63-9dfd-4be1-aa57-1bc862d35b9f.png?sv=2018-03-28&sr=b&sig=0y4Ke4feVjIqAS349hUz4UCaxCcHFk6AAFEUSeoJNiM%3D&spr=https&se=2023-04-08T17%3A37%3A39Z&sp=r",
+    "imagem_manutenção": "https://docserverpwaprodsbr.blob.core.windows.net/f918fae2-50f5-4e31-9a66-fc08dffc6c00-1/resource/1729f997-4fd7-4854-9527-531b105dd181.png?sv=2018-03-28&sr=b&sig=AJLoWbanHOdbjNyxrQ1%2F5cPjcym%2FEAhd4cKr3ECpO5k%3D&spr=https&se=2023-04-08T18%3A01%3A33Z&sp=r",
+    "imagem_moto": "https://docserverpwaprodsbr.blob.core.windows.net/f918fae2-50f5-4e31-9a66-fc08dffc6c00-1/resource/7ccce29f-46a1-4455-9fd2-c30d7b45f785.png?sv=2018-03-28&sr=b&sig=fp4n%2F0fOZ0xZpP3%2B4cxFVAkHczZsMWj9N%2FLRbFI0fWs%3D&spr=https&se=2023-04-08T17%3A43%3A08Z&sp=r"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "CustomGallerySample": 1,
+    "Tabela1": 0
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 3,
-    "circle": 1,
+    "button": 6,
+    "circle": 5,
+    "gallery": 1,
+    "icon": 3,
     "image": 2,
-    "label": 0
+    "label": 0,
+    "rectangle": 4
   },
   "OverridablePropertiesEntry": {
     "App": {},
     "Button1": {},
     "Circle1": {},
+    "Gallery1": {},
+    "galleryTemplate1": {},
+    "Image1": {},
     "Image2": {},
+    "Image3": {},
     "Label2": {},
     "Label3": {},
     "Lbl_nome do aplicativo": {},
     "Lbl_titulo gestão": {},
+    "NextArrow1": {},
+    "Separator1": {},
+    "Subtitle1": {},
     "Tela_Frotas": {},
-    "tela_inicial": {}
+    "tela_inicial": {},
+    "Title1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
@@ -55,30 +83,41 @@
     "App": 0,
     "Button1": 5,
     "Circle1": 2,
+    "Gallery1": 7,
+    "galleryTemplate1": 8,
+    "Image1": 9,
     "Image2": 3,
+    "Image3": 0,
     "Label2": 0,
     "Label3": 1,
     "Lbl_nome do aplicativo": 4,
     "Lbl_titulo gestão": 6,
+    "NextArrow1": 11,
+    "Separator1": 13,
+    "Subtitle1": 12,
     "Tela_Frotas": 0,
-    "tela_inicial": 0
+    "tela_inicial": 0,
+    "Title1": 10
   },
   "ResourcesJsonIndices": {
+    "Image-imagem carro": 2,
     "Image-imagem truck": 1,
+    "Image-imagem_manutenção": 4,
+    "Image-imagem_moto": 3,
     "Image-SampleImage": 0
   },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0590002,
+    "AnalysisLoadTime": 0.0701407,
     "ControlCount": {
       "button": 1,
       "circle": 1,
       "image": 1,
-      "label": 3,
-      "screen": 1
+      "label": 4,
+      "screen": 2
     },
-    "DeserializationLoadTime": 1.8163869,
+    "DeserializationLoadTime": 1.1209652,
     "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true
